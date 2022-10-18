@@ -1,6 +1,4 @@
-*{
-    box-sizing: border-box;
-}
+
 
 h1{
     color: #F9FAF8;
@@ -68,6 +66,8 @@ h2 {
     
 }
 
+
+
 .container {
     display: flex;
     justify-content: space-evenly;
@@ -96,21 +96,44 @@ h2 {
 }
 
 /*CTA*/
+.level4 {
+    flex:1 1 100px;
+}
 
-.cta {
+.level4bg {
     display:flex;
-    justify-content: space-around;
-    flex: 1 1 100px;
+    
+    justify-content: center;
+    align-items: center;
+    padding: 100px;
 }
 
-.container-cta {
+.level4content {
+    background-color: #3882f3;
+    
     display: flex;
-    padding: 100px;
-    justify-content: space-arround;
-    align-items: center;
-    background-color: #3882f6;
-    margin:100px;
+    justify-content: space-evenly;
+    flex-shrink: 0;
+    padding:100px 50px;
+    margin:0 100px;
 }
+
+.level4text {
+    display: flex;
+    
+    justify-content: center;
+    padding: 0 50px;
+    margin:0 50px;
+}
+
+.level4button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin:0 10px 0 20px;
+}
+
+
 
 footer {
     background-color: #1f2937;
